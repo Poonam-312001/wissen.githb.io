@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+      html{
+    background: url("Images/BK.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+    </style>
+    <link rel="stylesheet" href="Payment.css">
+    <link rel="shortcut icon" href="android-chrome-512x512.png" type="C:\Users\HP\Desktop\book store\android-chrome-512x512.png">
+</head>
+<body>
+    <form action="Successful payment.html" name="mypayment" id="THEFORM" method="POST">
+      <div class="form-container">
+        <div class="personal-information">
+          <h1>Payment Information</h1>
+        </div> <!-- end of personal-information -->
+             
+            <input id="input-field" type="text" name="credit card\debit card name" placeholder="Credit Card\Debit Card :"/>
+            <input id="input-field" type="text" name="number" placeholder="Card Number :"/>
+            <input id="input-field" type="text" name="expiry" placeholder="Expiry MM / YY :"/>
+            <input id="input-field" type="text" name="cvc" placeholder="CVV :"/>
+            <input id="input-field" type="email" name="OTP" maxlength="6" placeholder="OTP :"/>
+
+            <div class="card-wrapper"></div>
+            
+            <a href="Successful payment.html"></a><input type="submit" name="signup_submit" value="submit"/> 
+          
+      </form>
+    </div>
+  
+</body>
+</html>
